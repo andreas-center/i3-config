@@ -1,0 +1,16 @@
+out_to_x no
+out_to_console yes
+short_units yes
+update_interval 1
+
+use_xft yes
+font xtf:Cousine, FontAwesome:size=9
+
+#color1 727272
+#color2 BF5858
+color2 ffffff
+#color1 D49090
+color1 ffffff
+
+TEXT
+SSID : ${color #ffffff}${wireless_essid wlp2s0}     IP : ${color #ffffff}${addr wlp2s0}     Wireless quality : ${color #ffffff}${wireless_link_qual_perc wlp2s0}%     Kernel : ${kernel}     ${color2}${font FontAwesome:size=8}Uptime: ${font xtf:Cousine:size=9}${color #ffffff}${uptime_short}    ${color2}${font FontAwesome:size=8} Date: ${font xtf:Cousine:size=8}${color #ffffff}${time %d.%m.%Y}      ${color2}${font FontAwesome:size=8}Time: ${font xtf:Cousine:size=9}${color #ffffff}${time %H:%M:%S  }
