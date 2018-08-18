@@ -1313,6 +1313,7 @@ c.colors.tabs.selected.odd.bg = '#4c7899'
 
 c.url.searchengines['yt'] = 'https://youtube.com/results?search_query={}'
 c.url.searchengines['aw'] = 'https://wiki.archlinux.org/?search={}'
+c.url.searchengines['reddit'] = 'https://reddit.com/r/{}'
 
 ## Page(s) to open at the start.
 ## Type: List of FuzzyUrl, or FuzzyUrl
